@@ -80,4 +80,6 @@ ggplot(clim, aes(x=Year, y=Anomaly10y))+
   geom_line(aes(y=Anomaly10y+Unc10y), colour='grey50', linetype='dotted')+
   geom_line()
 
+
+
            
